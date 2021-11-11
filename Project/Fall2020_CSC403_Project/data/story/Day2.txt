@@ -3,6 +3,7 @@
 #CT Mr. Peanut: Mom and Dad sent my daily allowance! That’s awesome. Now I can actually buy something at the shops during lunch. I’m excited!
 #AW 20
 #CT Your parents sent you twenty dollars! It sure feels good to be a trust fund kid!
+#HW
 #CB \\data\\background\\ dorms.jpg Mr. Peanut: Oh, look, there’s Tony! He doesn’t look like he’s doing well… 
 #CF \\data\\foreground\\ tony.png
 #SF Tony: Hey dude. Man have I got a splitting headache after last night’s party.

@@ -1,6 +1,7 @@
 ﻿#CT Mr. Peanut: Good morning, sun! Another lovely day! 
 #AW 20
 #CT Your parents sent you twenty dollars! It sure feels good to be a trust fund kid!
+#HW
 #CT The school day goes by without a hitch, soon it's already time for lunch.
 #NS \\data\\story\\ HannahShopDays35.txt
 #NS \\data\\story\\ HayleyShopDays35.txt
