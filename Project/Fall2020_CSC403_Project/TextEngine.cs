@@ -492,7 +492,7 @@ namespace Fall2020_CSC403_Project
             {
                 ForegroundImage.Location = new Point((int)(ForegroundImage_Xscale * ClientRectangle.Size.Width), (int)(ForegroundImage_Yscale*Height));
             }
-            if (originalHeight != 0 && Height != 0)
+            if (originalHeight != 0 && Height != 0 && Width != 0)
             {
                 double heightScaling = Height / (double)originalHeight;
                 double widthScaling = Width / (double)originalWidth;
@@ -509,7 +509,7 @@ namespace Fall2020_CSC403_Project
                 {
                     optionNumber++;
                     option.OptionLabel.Size = new Size((int)(widthScaling * 150), (int)(heightScaling * 25));
-                    option.OptionLabel.Font = new Font(option.OptionLabel.Font.FontFamily, (int)(heightScaling * 8));
+                    option.OptionLabel.Font = new Font(option?.OptionLabel.Font.FontFamily, (int)Math.Ceiling(heightScaling * 8));
                     if(optionNumber == 6)
                     {
                         location_Y = 50;
